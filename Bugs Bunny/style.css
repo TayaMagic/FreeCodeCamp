@@ -1,0 +1,41 @@
+html {
+    font-size: 1em;
+  }
+    
+  body {
+    font-family: 'Indie Flower', sans-serif;
+    background-color: grey;
+    line-height: 1.5;
+    text-align: center;
+    color: #bad9d5;
+    margin: 20px;
+  } 
+  
+  a {
+    color: #33de4d;
+  }
+  
+  a:visited {
+    color: #de33ca;
+  }
+  
+  #main {
+    margin: 30px 10px;
+    padding: 15px;
+  }
+  
+  img {
+   max-width: 100%; 
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: grey;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
