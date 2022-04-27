@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <header>
+          <h1 id="title">Survey Form 27-04-2022</h1>
+          <h3>Created as a FreeCodeCamp Project</h3>
+          <p id="description">Thanks for contributing!</p>
+        </header>
+        
+        <main>
+          <form id="survey-form">
+            
+            <label id="name-label" for="name">Name *</label>
+            <input id="name" name="name" type="text" placeholder="Please, type your name here" required class="form-control"/>
+            
+            <label id="email-label" for="email">Email *</label>
+            <input id="email" name="email" type="email" placeholder="Please, type your email here"required class="form-control"/>
+            
+            <label id="number-label" for="age">Age <sm>(optional)</label>
+            <input id="number" name="age" type="number" min="0" max="100" placeholder="Choose your age" class="form-control"/>
+              
+              <label id="dropdown" for="dropdown">What is your favorite school subject?</label>
+              <select id="dropdown" name="school subject" required class="form-control">
+                <option disabled selected value>Select your subject</option>
+                <option value="science">Science</option>
+                <option value="maths">Maths</option>
+                <option value="art">Art</option>
+                 </select>
+              <label id="radio">Where do you learn this subject?</label>
+              <label>
+                <input name="radio" type="radio" value="School"/>School</label>
+              <label>
+                <input name="radio" type="radio" value="At home"/>At Home</label>
+              <label>
+                <input name="radio" type="radio" value="Online"/>Online</label>
+              
+              
+              <label id="checkbox">What device you use when learning?</label>
+              
+              <label><input name="checkbox" type="checkbox" value="Tablet"/>Tablet</label>
+              <label><input name="checkbox" type="checkbox" value="Phone"/>Phone</label>
+              <label><input name="checkbox" type="checkbox" value="laptop"/>laptop</label>
+              
+              <label id="textarea">Do you have any comments for this survey?</label>
+              <textarea id="textarea" name="comment" placeholder="Please, type here!" class="input-textarea"></textarea>
+              
+              <label><button id="submit" type="submit" class="submit-button">Submit</button></label>
+          </form>
+        </main>
+        </div>
+</body>
+
+</html>
