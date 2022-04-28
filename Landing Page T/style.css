@@ -1,0 +1,101 @@
+.logo > img {
+    width: 100%;  
+    height: 100%;  
+    max-width: 160px;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0px;
+    }
+    
+    nav > ul{
+      width: 300px; 
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    body {
+      font-family: 'Roboto Mono', monospace;
+    }
+    
+    #page-wrapper {
+      position: relative;
+    }
+    
+    li {
+      list-style: none;
+    }
+    
+    a {
+      color: #0373fc;
+      text-decoration: none;
+    }
+    
+    header {
+      position: top;
+      min-height: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    section {
+      max-width: 100%;
+      width: 100%;
+      margin: 25px auto;
+    }
+    
+    .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 75px;
+      margin-top: 50px;
+    }
+    
+    .email {
+      max-width: 250px;
+      width: 100%;
+      padding: 5px;
+    }
+    
+    .btn {
+      height: 30px;
+      font-size: 0.8em;
+      font-weight: 700;
+      border: 1px blue solid;
+      border-radius: 2px;
+      background: #0373fc;
+      cursor: pointer;
+    }
+    
+    
+    .video {
+      width: 100% !important;
+      height: auto !important;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 25px;
+    }
+    
+    
+    @media (max-width: 560px) {
+      header {
+        flex-wrap: wrap;
+      }
+    }
+    
+    
+    footer {
+      margin-top: 30px;
+      background-color: #bb99ff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+    
